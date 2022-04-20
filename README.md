@@ -4,6 +4,7 @@ Extract pdf font information.
 
 # Usage
 ## Scan pdf
+Return average font size and font families used in entire document.
 ```
 Usage: main.py scan [OPTIONS] FILENAME
 
@@ -14,6 +15,7 @@ Options:
 ```
 
 ## Test pdf for min size
+Test a pdf for paragraphs with text font size smaller than specified.
 ```
 Usage: main.py test [OPTIONS] FILENAME
 
